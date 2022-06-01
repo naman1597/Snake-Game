@@ -1,9 +1,9 @@
 // Game Constants & Variables
 let inputDir = {x:0, y:0};
-const foodSound = new Audio('../music/food.mp3');
-const gameOverSound = new Audio('../music/gameover.mp3');
-const moveSound = new Audio('../music/move.mp3');
-const musicSound = new Audio('../music/music.mp3');
+const foodSound = new Audio('https://naman1597.github.io/Snake-Game/music/food.mp3');
+const gameOverSound = new Audio('https://naman1597.github.io/Snake-Game/music/gameover.mp3');
+const moveSound = new Audio('https://naman1597.github.io/Snake-Game/music/move.mp3');
+const musicSound = new Audio('https://naman1597.github.io/Snake-Game/music/music.mp3');
 let reward = document.getElementById('score');
 let hiscorebox = document.getElementById('hiscore');
 let speed = 8;
